@@ -1,0 +1,150 @@
+<!--
+  Generated template for the DashboardContentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <!-- <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button> -->
+    <ion-buttons>
+      <ion-icon style="font-size:2.4rem;padding: 0vh 1vw;" name="power"></ion-icon>
+    </ion-buttons>
+    <ion-title><span class="hedTxt">Dashboard</span></ion-title>
+    <ion-buttons end>
+      <ion-icon style="font-size:2.4rem;padding: 0vh 1vw;" name="notifications"></ion-icon>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item class="searchBox">
+    <ion-label>
+      <ion-icon name="search"></ion-icon>
+    </ion-label>
+    <ion-input placeholder="Global Search" clearInput type="text"></ion-input>
+    <ion-icon class="micIcon" name="md-mic" item-right></ion-icon>
+  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        <ion-card class="cardCss"><span style="line-height: 5vh;" class="txtColorRed font14 fontBold">20</span><br><span
+            class="txtColorGray"> Pending at TEKLiner</span></ion-card>
+      </ion-col>
+      <ion-col text-center>
+        <ion-card class="cardCss"><span style="line-height: 5vh;" class="txtColorRed font14 fontBold">1</span><br><span
+            class="txtColorGray"> Pending at Cotek</span></ion-card>
+      </ion-col>
+      <ion-col text-center>
+        <ion-card class="cardCss"><span style="line-height: 5vh;" class="txtColorRed font14 fontBold">0</span><br><span
+            class="txtColorGray"> Saved at Cotek</span></ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div>
+    <p class="font12 leftContent"> <b>My Recent Tar</b></p>
+    <p class="font12 rightContent txtColorGray fontBold">View All</p>
+  </div><br>
+  <ion-card class="redLeftBorder">
+    <ion-card-content>
+      <div>
+        <p class="font12 leftContent"> <b>TAR No.</b> #2313123123 </p>
+        <p class="font12 rightContent txtInProgress fontBold">Inprogress</p>
+      </div><br>
+      <div><span class="fontBold font14"> Engine Abnormal Noise <br></span></div>
+      <div>
+        <p class="font12 leftContent"><b>Start Date:</b> 12/05/2018 </p>
+        <p class="font12 rightContent"><b>End Date:</b> 14/06/2018</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="greenLeftBorder">
+    <ion-card-content>
+      <div>
+        <p class="font12 leftContent"> <b>TAR No.</b> #2313123123 <br></p>
+        <p class="font12 rightContent txtClose fontBold">Closed</p>
+      </div><br>
+      <div><span class="fontBold font14"> Key programing Problem<br></span></div>
+      <div>
+        <p class="font12 leftContent"><b>Start Date:</b> 12/05/2018 </p>
+        <p class="font12 rightContent"><b>End Date:</b> 14/06/2018</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <div>
+    <p class="font12 leftContent"> <b>My Recent Discussion</b></p>
+    <p class="font12 rightContent txtColorGray fontBold">View All</p>
+  </div><br>
+  <ion-card class="yellowLeftBorder">
+    <ion-card-content>
+      <div>
+        <p class="txtOverFlow font14"><b> Key programing Problem in my mahindra scorpio engine Abnormal Noise </b></p>
+      </div>
+      <div>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+      </div>
+      <div class="padTop2 ">
+        <p class="font12 leftContent">
+          <ion-icon class="txtColorGray" name="ios-chatboxes-outline"> 100</ion-icon>
+        </p>
+        <p class=" font12 rightContent">
+          <ion-icon class="txtColorGray" name="timer"> 30 min ago</ion-icon>
+        </p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <div>
+    <p class="font12 leftContent"> <b>Latest Videos</b></p>
+    <p class="font12 rightContent txtColorGray fontBold">View All</p>
+  </div><br>
+  <ion-card>
+    <ion-row>
+      <ion-col class="col" col-4 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <ion-thumbnail item-start>
+          <img src="../../assets/imgs/image.png">
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col class="col" col-8 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <ion-card-content>
+          <div>
+            <p class=" font14"><b> Key programing</b></p>
+          </div>
+          <div>
+            <p class="txtOverFlow"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+          <div class="padTop2 ">
+            <p class=" font12 rightContent">
+              <ion-icon class="txtColorGray" name="timer"> 30 min ago</ion-icon>
+            </p>
+          </div>
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <ion-row>
+      <ion-col class="col" col-4 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <ion-thumbnail item-start>
+          <img src="../../assets/imgs/video.png">
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col class="col" col-8 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <ion-card-content>
+          <div>
+            <p class=" font14"><b> Key programing</b></p>
+          </div>
+          <div>
+            <p class="txtOverFlow"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+          <div class="padTop2 ">
+            <p class=" font12 rightContent">
+              <ion-icon class="txtColorGray" name="timer"> 30 min ago</ion-icon>
+            </p>
+          </div>
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

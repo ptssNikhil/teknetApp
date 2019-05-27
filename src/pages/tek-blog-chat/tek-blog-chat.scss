@@ -1,0 +1,99 @@
+page-tek-blog-chat {
+}
+.mainMSg {
+  width: 100vw !important;
+  padding: 1vh 4vw;
+  margin: -2vh -4vw !important;
+}
+.rightMSg {
+  margin: 4vh 7vw !important;
+  background: #dedede33;
+}
+.leftMSg {
+  margin: 4vh -1vw !important;
+  background: #f4c3f752;
+}
+.cardLeft {
+  position: relative;
+}
+
+.padTop4 {
+  padding-top: 4vh;
+}
+.padTop8 {
+  padding-top: 8vh;
+}
+.top25 {
+  margin-top: 25px;
+}
+.top35 {
+  margin-top: 35px !important;
+}
+.padRight2 {
+  padding-right: 2vw;
+}
+.chatSend {
+  background-color: red;
+  padding: 1vh 2vw;
+  border-radius: 50%;
+  color: white;
+}
+.leftChat {
+  position: relative;
+  background-color: #efefef
+;
+  padding: 10px;
+  width: 85vw;
+}
+
+.leftChat:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  margin-left: 0px;
+  width: 0;
+  height: 0;
+  border-top: solid 30px #efefef
+;
+  border-left: solid 0px transparent;
+  border-right: solid 15px transparent;
+}
+
+.rightChat {
+  margin-top: 8%;
+  position: relative;
+  background-color: rgba(229, 22, 54, 0.07);
+  padding: 10px;
+  width: 85vw;
+  margin-left: 6vw;
+}
+
+.rightChat:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 2%;
+  margin-left: 0px;
+  width: 0;
+  height: 0;
+  border-top: solid 30px rgba(229, 22, 54, 0.07);
+  border-left: solid 15px transparent;
+  border-right: solid 0px transparent;
+}
+
+.txtJustify {
+  text-align: justify;
+}
+.rply{
+  color: #60687C;
+  position: fixed;
+  margin-top: 8px;
+  padding-left: 5px;
+}
+.moveRight{
+  margin-right: 9vw;
+}
+.moveRight2{
+  margin-right: -7vw;
+}

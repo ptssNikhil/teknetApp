@@ -1,0 +1,62 @@
+page-alert-deatail {
+}
+.item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #e61f2e !important;
+  //   -webkit-box-shadow: inset 0 -1px 0 0 #e61f2e !important;
+  //   box-shadow: inset 0 -1px 0 0 #e61f2e !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.list-md .item-input.item-input-has-focus:last-child,
+.list-md .item-input.input-has-focus:last-child {
+  border-bottom-color: #e61f2e !important;
+  //   -webkit-box-shadow: inset 0 -1px 0 0 #e61f2e;
+  //   box-shadow: inset 0 -1px 0 0 #e61f2e;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.item-input-has-focus .label-md[stacked],
+.input-has-focus .label-md[stacked],
+.item-input-has-focus .label-md[floating],
+.input-has-focus .label-md[floating] {
+  color: #e61f2e !important;
+}
+
+.editbtn {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px !important;
+}
+
+ionic2-datepicker .datepicker-wrapper .datepicker-header .weekday-header {
+  background-color: #e61f2e !important;
+}
+
+ionic2-datepicker .datepicker-wrapper .datepicker-header {
+  background-color: #ff5858 !important;
+}
+
+.button-md {
+  background-color: #e61f2e !important;
+}
+
+ionic2-datepicker .datepicker-calendar .calendar-wrapper .datepicker-current {
+  color: #e61f2e !important;
+}
+
+ionic2-datepicker .datepicker-rows .row.selected {
+  background-color: #ffbcc1 !important;
+}
+
+ionic2-datepicker .datepicker-rows .row.active {
+  background-color: #d2d2d2 !important;
+}
+
+.dataPickerBox{
+    border: 1px solid #a1a1a1;
+    margin-top: 1vh;
+    width: 40vw;
+    line-height: 4vh;
+}

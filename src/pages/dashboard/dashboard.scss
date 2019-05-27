@@ -1,0 +1,78 @@
+page-dashboard {
+
+}
+
+.Group-2 {
+    width: 360px;
+    height: 47px;
+    object-fit: contain;
+  }
+
+// .ion-ios-tektubeIcon,
+// .ion-md-tektubeIcon ,
+// .ion-wp-tektubeIcon ::before{
+//   content: url(../assets/imgs/tektube.png);
+//   width: 40px;
+//   height: 40px;
+//   padding: 6px 4px 2px;
+//   opacity: 0.9;
+// }
+
+
+ion-icon {
+    &[class*="custom-"] {
+        width: 40px;
+        height: 40px;
+        padding: 6px 4px 2px;
+        opacity: 0.9;
+    } // custom icons
+    &[class*="rsaIcon"][ng-reflect-is-active="true"] {
+        content: url(../assets/imgs/tabIcon/shop.svg);
+        // content: url(../assets/imgs/tabIcon/rsa.svg);
+        background-size: contain;
+    }//in case of active
+    &[class*="rsaIcon"][ng-reflect-is-active="false"] {
+        content: url(../assets/imgs/tabIcon/shopBk.svg);
+        // content: url(../assets/imgs/tabIcon/rsaBk.svg);
+        background-size: contain;
+    }//in case of inactive
+    &[class*="tektubeIcon"][ng-reflect-is-active="true"] {
+        content: url(../assets/imgs/tabIcon/tektube.svg);
+        background-size: contain;
+    }//in case of active
+    &[class*="tektubeIcon"][ng-reflect-is-active="false"] {
+        content: url(../assets/imgs/tabIcon/tektubeBk.svg);
+        background-size: contain;
+    }//in case of inactive
+    &[class*="dashIcon"][ng-reflect-is-active="true"] {
+        content: url(../assets/imgs/tabIcon/dash.svg);
+        background-size: contain;
+       
+    }//in case of active
+    &[class*="dashIcon"][ng-reflect-is-active="false"] {
+        content: url(../assets/imgs/tabIcon/dashBk.svg);
+        background-size: contain;
+       
+    }//in case of inactive
+    &[class*="teklineIcon"][ng-reflect-is-active="true"] {
+        content: url(../assets/imgs/tabIcon/tekline.svg);
+        background-size: contain;
+    }//in case of active
+    &[class*="teklineIcon"][ng-reflect-is-active="false"] {
+        content: url(../assets/imgs/tabIcon/teklineBk.svg);
+        background-size: contain;
+    }//in case of inactive
+    &[class*="msgIcon"][ng-reflect-is-active="true"] {
+        content: url(../assets/imgs/tabIcon/tekblog.svg);
+        background-size: contain;
+    }//in case of active
+    &[class*="msgIcon"][ng-reflect-is-active="false"] {
+        content: url(../assets/imgs/tabIcon/tekblogBk.svg);
+        background-size: contain;
+    }//in case of inactive
+    &[class*="filterIcon"] {
+        content: url(../assets/imgs/funnel.svg);
+        background-size: contain;
+    }
+    
+}

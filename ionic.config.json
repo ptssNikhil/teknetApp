@@ -1,0 +1,7 @@
+{
+  "name": "tecknetV3",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
